@@ -127,10 +127,8 @@ img {
 }
 /* #endregion */
 
-/* #region */
-.team-section {
-  background-color: #f4f4fd;
-}
+/* #region sections global */
+
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -153,16 +151,29 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.team-list-item {
-  background-color: #fff;
-}
+/* #endregion */
+
+/* #region footer */
+
 .footer {
   background: #2e2f42;
+  padding: 100px 0;
 }
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  margin-top: 16px;
+  width: 264px;
 }
+
 /* #endregion */
+
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.team-list-item {
+  background-color: #fff;
+}
