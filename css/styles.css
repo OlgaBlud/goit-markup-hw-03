@@ -247,15 +247,17 @@ text?
 /* #region portfolio*/
 .portfolio-list {
   display: flex;
-  gap: 24px;
+  row-gap: 24px;
   flex-wrap: wrap;
 }
 .portfolio-list-item {
   width: calc((100%- 72px) / 4);
-  padding-bottom: 32px;
 }
-.portfolio-photo {
-  margin-bottom: 32px;
+
+.project-info {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .portfolio-list-item .section-title {
   margin-bottom: 8px;
