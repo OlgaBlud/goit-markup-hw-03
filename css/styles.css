@@ -247,7 +247,8 @@ text?
 /* #region portfolio*/
 .portfolio-list {
   display: flex;
-  row-gap: 24px;
+  row-gap: 48px;
+  column-gap: 24px;
   flex-wrap: wrap;
 }
 .portfolio-list-item {
@@ -259,7 +260,7 @@ text?
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-.portfolio-list-item .section-title {
+.project-info .section-sub-title {
   margin-bottom: 8px;
 }
 
