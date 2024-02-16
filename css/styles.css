@@ -1,3 +1,5 @@
+/* #region  global*/
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
@@ -36,6 +38,9 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+/* #endregion */
+
+/* #region logo */
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -52,6 +57,13 @@ img {
 .logo-light-text {
   color: #f4f4fd;
 }
+/* #endregion */
+
+/* #region header */
+.page-header {
+  padding: 24px 0;
+}
+
 .nav-links {
   font-weight: 500;
   font-size: 16px;
@@ -77,12 +89,14 @@ img {
 .contact-link:focus {
   color: #404bbf;
 }
+/* #endregion */
+
+/* #region  main section*/
 .main-section {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
-.team-section {
-  background-color: #f4f4fd;
-}
+
 .main-title {
   font-weight: 700;
   font-size: 56px;
@@ -90,6 +104,9 @@ img {
   letter-spacing: 0.02em;
   color: #fff;
   text-align: center;
+  margin-bottom: 48px;
+  width: 497px;
+  margin: 0 auto 48px;
 }
 .order-btn {
   font-family: 'Roboto', sans-serif;
@@ -100,10 +117,19 @@ img {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  padding: 16px 32px;
 }
 .order-btn:hover,
 .order-btn:focus {
   background-color: #404bbf;
+}
+/* #endregion */
+
+/* #region */
+.team-section {
+  background-color: #f4f4fd;
 }
 .section-title {
   font-weight: 700;
@@ -139,3 +165,4 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
+/* #endregion */
