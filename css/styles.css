@@ -61,8 +61,37 @@ img {
 
 /* #region header */
 .page-header {
+  /* padding: 24px 0; */
+}
+.page-header > .container {
+  display: flex;
+  justify-content: space-between;
+}
+.page-navigation {
+  display: flex;
+  align-items: center;
+}
+.page-menu {
+  display: flex;
+  gap: 40px;
+}
+.page-menu-item,
+.contact-list-item {
+  display: block;
   padding: 24px 0;
 }
+.contact-list {
+  display: flex;
+}
+.page-navigation > .logo {
+  margin-right: 76px;
+}
+/* .page-menu,
+.page-menu-item,
+.contact-list,
+.contact-list-item {
+  display: inline-block;
+} */
 
 .nav-links {
   font-weight: 500;
@@ -156,27 +185,9 @@ img {
 }
 /* #endregion */
 
-/* #region footer */
-
-.footer {
-  background: #2e2f42;
-  padding: 100px 0;
-}
-.footer-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
-  margin-top: 16px;
-  width: 264px;
-}
-
-/* #endregion */
-
 /* #region advantages */
 .advantages-list {
   display: flex;
-
   gap: 24px;
 }
 .advantages-list-item {
@@ -194,6 +205,7 @@ text?
 ####################
  */
 /* #endregion */
+
 /* #region team */
 .team-section {
   background-color: #f4f4fd;
@@ -218,6 +230,7 @@ text?
   text-align: center;
 }
 /* #endregion */
+
 /* #region portfolio*/
 .portfolio-list {
   display: flex;
@@ -225,7 +238,7 @@ text?
   flex-wrap: wrap;
 }
 .portfolio-list-item {
-  width: calc((1128px- 72px) / 4);
+  width: calc((100%- 72px) / 4);
   padding-bottom: 32px;
 }
 .portfolio-photo {
@@ -233,6 +246,23 @@ text?
 }
 .portfolio-list-item .section-title {
   margin-bottom: 8px;
+}
+
+/* #endregion */
+
+/* #region footer */
+
+.footer {
+  background: #2e2f42;
+  padding: 100px 0;
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  margin-top: 16px;
+  width: 264px;
 }
 
 /* #endregion */
