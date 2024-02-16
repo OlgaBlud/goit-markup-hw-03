@@ -62,6 +62,7 @@ img {
 /* #region header */
 .page-header {
   /* padding: 24px 0; */
+  border-bottom: 1px solid #e7e9fc;
 }
 .page-header > .container {
   display: flex;
@@ -71,27 +72,19 @@ img {
   display: flex;
   align-items: center;
 }
-.page-menu {
-  display: flex;
-  gap: 40px;
-}
-.page-menu-item,
-.contact-list-item {
-  display: block;
-  padding: 24px 0;
-}
+.page-menu,
 .contact-list {
   display: flex;
+  gap: 40px;
 }
 .page-navigation > .logo {
   margin-right: 76px;
 }
-/* .page-menu,
-.page-menu-item,
-.contact-list,
-.contact-list-item {
-  display: inline-block;
-} */
+.nav-links,
+.contact-link {
+  display: block;
+  padding: 24px 0;
+}
 
 .nav-links {
   font-weight: 500;
