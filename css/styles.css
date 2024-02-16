@@ -61,7 +61,6 @@ img {
 
 /* #region header */
 .page-header {
-  /* padding: 24px 0; */
   border-bottom: 1px solid #e7e9fc;
 }
 .page-header > .container {
@@ -127,7 +126,7 @@ img {
   color: #fff;
   text-align: center;
   margin-bottom: 48px;
-  width: 497px;
+  max-width: 496px;
   margin: 0 auto 48px;
 }
 .order-btn {
@@ -142,6 +141,10 @@ img {
   display: block;
   margin: 0 auto;
   padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 .order-btn:hover,
 .order-btn:focus {
