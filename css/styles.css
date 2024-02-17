@@ -29,6 +29,8 @@ button {
 }
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .container {
@@ -196,23 +198,16 @@ img {
 /* #region advantages */
 .advantages-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
 }
 .advantages-list-item {
-  /* width: calc((100%- 72px) / 4); */
-  width: calc((1128px- 72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 .advantages-list-item .section-sub-title {
   margin-bottom: 8px;
 }
-/*
-####################
-.advantages-list-item .section-title {
-  hide title
-}
-text?
-####################
- */
+
 /* #endregion */
 
 /* #region team */
@@ -221,17 +216,15 @@ text?
 }
 .team-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
 }
 .team-list-item {
   background-color: #fff;
-  width: calc((1128px- 72px) / 4);
-  /* padding-bottom: 32px; */
+  width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
 }
-/* .team-avatar {
-  margin-bottom: 32px;
-} */
+
 .team-info {
   padding: 32px 0;
 }
@@ -252,7 +245,7 @@ text?
   flex-wrap: wrap;
 }
 .portfolio-list-item {
-  width: calc((100%- 72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .project-info {
